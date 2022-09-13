@@ -1,0 +1,62 @@
+#title {
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Oleo+Script+Swash+Caps&family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oleo+Script&family=Oleo+Script+Swash+Caps&family=Qwitcher+Grypen:wght@400;700&display=swap');
+#title {
+    font-family:'Oleo Script Swash Caps', cursive;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#flot {
+    background-color: brown;
+    float: right;
+   /* border: 1px solid red;*/
+   texe-align:right;
+
+   padding: 3rem;
+   margin: 3rem;
+
+}
+#relative {
+ background-color: red;
+padding: 2rem;
+margin: 2rem;
+height: 2rem;
+
+
+}
+#relative p {
+    left: 2rem;
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+}
+#absolute {
+    background-color: red;
+    padding: 2rem;
+    margin: 2rem;
+    height: 8rem;
+}
+#absolute p {
+    background-color: white;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 5rem;
+}
+
+#bi {
+position: fixed;
+bottom: 1px;
+}
+#st {
+    position: sticky;
+    top: 3rem;
+    
+}

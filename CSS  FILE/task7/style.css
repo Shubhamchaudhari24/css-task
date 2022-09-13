@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+#type::after {
+content: "laptop/Desktop computer";
+}
+
+@media only screen and (max-width: 720px) {
+    
+}
+body {
+    background-color: red;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+
+
+
+
+
+

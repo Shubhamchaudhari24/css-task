@@ -1,0 +1,24 @@
+#box {
+    background-color: aqua;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+#box:hover {
+    background-color: red;
+}
+a:visited {
+color:lightcyan;
+
+}
+#p {
+    font-size: 20px;
+}
+#p::before {
+    content: "**********" ;
+}
+
+#p::after {
+    content:"-------------";
+}

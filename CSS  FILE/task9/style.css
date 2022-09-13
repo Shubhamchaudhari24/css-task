@@ -1,0 +1,75 @@
+#flex {
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+    display: grid;
+    /*grid-template-columns: 100px 100px 70px;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.item {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+
+}
+
+#item12 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#item13 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+#item14 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+#item15 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+}
+
+#item17 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+
+#item0 {
+    background-color: lightslategray;
+    color: grey;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: right;
+    padding: 0.5rem;
+
+}
+
+.item:hover {
+    background-color: yellow;
+}
